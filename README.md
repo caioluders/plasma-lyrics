@@ -9,7 +9,7 @@ It follows the same player as Plasma's own Media Player widget, so it works with
 anything that speaks MPRIS: Spotify, browsers, mpv, VLC, Elisa, Strawberry and so on.
 Lyrics come from [LRCLIB](https://lrclib.net) — no account or API key needed.
 
-<!-- Add a screenshot here before publishing: ![Screenshot](screenshot.png) -->
+![Lyrics view with the current line highlighted](screenshots/lyrics-view.png)
 
 ## Features
 
