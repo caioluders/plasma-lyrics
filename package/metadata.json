@@ -1,0 +1,20 @@
+{
+    "KPlugin": {
+        "Id": "g3ol4d0.lyrics",
+        "Name": "Synced Lyrics",
+        "Description": "Time-synced lyrics for whatever is playing, in your panel or on the desktop",
+        "Icon": "view-media-lyrics",
+        "Category": "Multimedia",
+        "Version": "1.0.0",
+        "License": "MIT",
+        "Authors": [
+            {
+                "Name": "g3ol4d0"
+            }
+        ],
+        "Website": "https://github.com/caioluders/plasma-lyrics",
+        "BugReportUrl": "https://github.com/caioluders/plasma-lyrics/issues"
+    },
+    "KPackageStructure": "Plasma/Applet",
+    "X-Plasma-API-Minimum-Version": "6.0"
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+    <kcfgfile name=""/>
+
+    <group name="General">
+        <!-- 0 = current lyric line, 1 = icon only -->
+        <entry name="panelMode" type="Int">
+            <default>0</default>
+        </entry>
+        <!-- in grid units -->
+        <entry name="panelWidth" type="Int">
+            <default>18</default>
+        </entry>
+        <entry name="showTitleFallback" type="Bool">
+            <default>true</default>
+        </entry>
+        <!-- 0 = left, 1 = centre, 2 = right -->
+        <entry name="alignment" type="Int">
+            <default>1</default>
+        </entry>
+        <!-- percent of the system font size -->
+        <entry name="fontScale" type="Int">
+            <default>100</default>
+        </entry>
+        <entry name="accentHighlight" type="Bool">
+            <default>false</default>
+        </entry>
+        <!-- milliseconds; positive shows lyrics earlier -->
+        <entry name="offsetMs" type="Int">
+            <default>0</default>
+        </entry>
+    </group>
+</kcfg>
